@@ -36,17 +36,17 @@ class StudentController:
         self.__Student = model
         self.__StudnetView = view
 
-    def setStudentName(self,name):
-        self.__Student.setName(name)
-
-    def getStudentName(self):
-        return self.__Student.getName()
-
-    def setStudentRollNo(self,rollNo):
-        self.__Student.getrollNo()
-
-    def getStudentRollNo(self):
-        return self.__Student.getrollNo()
+    # def setStudentName(self,name):
+    #     self.__Student.setName(name)
+    #
+    # def getStudentName(self):
+    #     return self.__Student.getName()
+    #
+    # def setStudentRollNo(self,rollNo):
+    #     self.__Student.getrollNo()
+    #
+    # def getStudentRollNo(self):
+    #     return self.__Student.getrollNo()
 
     def updateView(self):
         self.__StudnetView.printStudentDetails(self.__Student.getName(),self.__Student.getrollNo())
